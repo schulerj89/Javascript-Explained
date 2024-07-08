@@ -1,0 +1,146 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Component Styles */
+.heap,
+.call-stack,
+.web-api,
+.callback-queue,
+.event-loop,
+.code-input {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  min-height: 200px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+/* Specific Component Styles */
+.heap {
+  background-color: #ffe4e1;
+}
+
+.call-stack {
+  background-color: #e0ffff;
+}
+
+.web-api {
+  background-color: #f5f5dc;
+}
+
+.callback-queue {
+  background-color: #ffffe0;
+}
+
+.event-loop {
+  background-color: #e6e6fa;
+  width: 80%;
+  min-height: 100px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.code-input {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.speed-slider {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.speed-slider label {
+  margin-right: 10px;
+}
+
+/* Icon Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.event-loop-icon {
+  font-size: 2em;
+  margin: 10px;
+}
+
+.event-loop-icon.running {
+  animation: spin 2s linear infinite;
+}

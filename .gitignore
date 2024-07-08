@@ -1,0 +1,21 @@
+# dependencies
+js-explained/node_modules
+js-explained/.pnp
+js-explained/.pnp.js
+
+# testing
+js-explained/coverage
+
+# production
+js-explained/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+js-explained/npm-debug.log*
+js-explained/yarn-debug.log*
+js-explained/yarn-error.log*
