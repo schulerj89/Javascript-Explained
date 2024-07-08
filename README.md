@@ -10,6 +10,9 @@ This project is a JavaScript Event Loop Visualizer that helps understand how the
 - Adjustable speed to see the event loop in action more clearly.
 - Clear indication of when the event loop is running and handling tasks.
 
+## Application
+![Screenshot of the Visualizer](./Javascript-Explained.png)
+
 ## Usage
 
 1. **Input JavaScript Code**: Enter your JavaScript code in the provided text area.
